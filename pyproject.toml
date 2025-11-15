@@ -1,0 +1,14 @@
+[project]
+name = "fastapi-tutorial"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "mypy>=1.18.2",
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.14.4",
+]
