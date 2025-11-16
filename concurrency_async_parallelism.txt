@@ -1,0 +1,18 @@
+Modern versions of Python have support for "asynchronous code" using something called "coroutines", with async and await syntax.\
+
+When we can switch to other tasks from first task when first task is taking extra time(like heavy ML/Data Science work),
+it is called concurrency.
+
+Sequential tasks: 
+if i waited in line for airport for 4 hours and later did work for 3 hours= sequential 
+
+concurrency
+for example- if i have to go to the airport and wait in line, where airport line=4 hours and office work = 3 hours(Total of 7)
+But, whenever i was not busy with airport line work and did office work, and finally at end of day work is done= Concurrency
+work is interruptable, as in i can pick up task1 after task2 is done
+
+parallelism:
+when two tasks are literally performed at the same time, it is called parallelism.
+If my assistant does work while i'm in line= parallel
+
+Couroutines = fancy term for async def
